@@ -235,7 +235,7 @@ def handle_csv(infile: str, outfile: str):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python3 detector_full_candidate_name.py input.csv [output.csv]")
+        print("Usage: python3 detector_Azimusshan_Khan.py input.csv [output.csv]")
         sys.exit(1)
     inp = sys.argv[1]
     outp = sys.argv[2] if len(sys.argv) > 2 else "redacted_output_candidate_full_name.csv"
