@@ -238,6 +238,6 @@ if __name__ == "__main__":
         print("Usage: python3 detector_Azimusshan_Khan.py input.csv [output.csv]")
         sys.exit(1)
     inp = sys.argv[1]
-    outp = sys.argv[2] if len(sys.argv) > 2 else "redacted_output_candidate_full_name.csv"
+    outp = sys.argv[2] if len(sys.argv) > 2 else "redacted_output_Azimusshan_Khan.csv"
     handle_csv(inp, outp)
     print(f"Wrote {outp}")
