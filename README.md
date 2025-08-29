@@ -6,11 +6,8 @@ Input Format
 
 The input is a CSV file with two columns:
 
-record_id
 
-Data_json (this is just a JSON object stored as a string)
-
-How to Run
+How to Run:-
 
 To run my script, I use:
 
@@ -21,9 +18,9 @@ If I want to save the output with a custom name, I can do:
 
 python3 detector_Azimusshan_Khan.py iscp_pii_dataset.csv redacted_Azimusshan_Khan.csv
 
-Output
+Output:
 
-By default, the script creates a file called redacted_output_candidate_full_name.csv.
+By default, the script creates a file called redacted_output_Azimusshan_khan.csv.
 This file has three columns:
 
 record_id
